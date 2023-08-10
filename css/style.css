@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    /* height: auto; */
+    background-color: #1e1e28;
+    overflow: hidden;
+
+}
+
+.App{
+    display: flex;
+}
+.Aside{
+    width: 22%;
+    margin-left: 1%;
+    background-color:#20202a ;
+    height: 100vh;
+   
+    
+}
+
+.scroll{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.head{
+    background: #24242e ;
+    height: 30vh;
+    z-index: 3;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+section> .img{
+    width: 26%;
+    height: 12vh;
+    object-fit: cover;
+    border-radius: 100%;
+    position: relative;
+    top:1.5em;   
+    margin: auto;
+    display: flex;
+    justify-content: center;
+} 
+section > h1{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 15px;
+    margin: 20px;
+}
+
+section > h2{
+    color: rgb(136, 131, 131);
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    height: 20vh;
+    margin-top: 60px;
+    
+}
+.about > section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+section > .loc{
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+
+}
+
+
+section > span{
+    color:  rgb(167, 164, 164);
+    padding: 10px;
+    position: relative;
+    bottom: 1.5em;
+    font-size: 14px;
+
+
+}
+.hr{
+    width: 82%;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    right: 4px;
+    height: 1px;
+    opacity: 5.5;
+    border: 1.50px rgb(53, 52, 52) solid;
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    position: relative;
+    top: 1em;
+    margin: auto;
+    
+
+}
+.circles > .circle1{
+    width: 60px;
+    height:60px;
+    background: rgba(0, 0, 0, 0.10);
+    border-radius: 100%;
+    border: 3.50px #FFC107 solid;
+}
+
+.circles > .circle2{
+    width: 60px;
+    height:60px;
+    position: relative;
+    right: 0.5em;
+    background: rgba(0, 0, 0, 0.10);
+    border-radius: 100%;
+    border: 3.50px #FFC107  double;
+}
+
+.circles > .circle3{
+    width: 60px;
+    height:60px;
+    background: rgba(0, 0, 0, 0.10);
+    border-radius: 100%;
+    border: 3.50px #FFC107 dotted;
+}
+
+.percent{
+    color: #7C7979;
+    font-size: 17px;
+    font-family: 'Inter';
+    font-weight: 400;
+    word-wrap: break-word;
+    display: grid;
+    position: relative;
+    top: 15px;
+    place-content: center;
+}
+
+.language{
+    color: white;
+    position: relative  ;
+    top: 4em;
+    font-size: 14px;
+}
+
+.hr2{
+    width: 82%;
+    margin: auto;
+    position: relative;
+    top: 5em;
+    right: 4px;
+    height: 1px;
+    opacity: 5.5;
+    border: 1.50px rgb(53, 52, 52) solid;
+}
+
+.skills{
+    width: 100%;
+    height: 2vh;
+    margin-top: 6em;
+    
+}
+
+.skills > .div{
+    width: 80%;
+    height: 30%;
+    margin: auto; 
+    border-radius: 20px;
+    background: hsl(45, 100%, 51%);
+    border-right: 29px black solid;
+}
+
+.div:nth-child(1){
+    border-right: 10px black solid;
+
+}
+.div:nth-child(2){
+    border-right: 150px black solid;
+
+}
+.div:nth-child(3){
+    border-right: 15px black solid;
+
+}
+.div:nth-child(4){
+    border-right: 14px black solid;
+
+}
+.div:nth-child(5){
+    border-right: 150px black solid;
+
+}
+.div > section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section > label {
+    position: relative;
+    bottom: 1.5em;
+}
+label:nth-child(1){
+    color: white;
+    font-size: 14px;
+}
+
+.per{
+    color: #7C7979;
+    font-size: 12px;
+}
+
+
+
+.hr3{
+    width: 82%;
+    margin: auto;
+    position: relative;
+    top: 3em;
+    right: 4px;
+    height: 1px;
+    opacity: 5.5;
+    border: 1.50px rgb(53, 52, 52) solid;
+}
+
+.lists{
+    margin: auto;
+    position: relative;
+    left: 1.5em;
+    top: 2em;
+}
+
+.lists > ul{
+    list-style: none;
+}
+ul > li{
+    color: #7C7979;
+    font-size: 15px;
+    line-height: 26px;
+}
+.iconA{
+    color: #FFC107;
+    position: relative;
+    top: 5px;
+}
+
+.cv > h3{
+    color: #7C7979;
+    font-size: 12px;
+    position: relative;
+    top: 2.5em;
+    left: 1.9em;
+    font-weight: 850;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: scale 0.3s;
+}
+
+.cv > h3:hover{
+    color: rgb(190, 190, 190);
+    transition: 0.5s; 
+}
+
+.links{
+    position: relative  ;
+    bottom: 0;
+    background:#20202a ;
+    height: 12vh;
+    top: 1.2em;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+   
+}
+
+.icon{
+    color: #7C7979;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.icon:hover{
+    color: rgb(190, 190, 190);
+    transition: 0.4s; 
+}
+
+
+
+
+/* middle css */
+
+
+
+.Middle-main{
+  
+    width: 59%;
+    position: relative;
+    top: 2em;
+    margin-left: 2%;
+    object-fit: cover;
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.Middle-main::-webkit-scrollbar{
+    display: none;
+}
+
+.Middle-main > .main-part1{
+    background-image: url(./Assets/images/me.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size:contain;
+    display: flex;
+    opacity: 2;
+    
+}
+.image-div > .image{
+    width: 100%;
+    height: 59.2vh;
+    position: relative;
+    left: 11.2em;
+    
+
+}
+.main-part1 > .part1{
+    position:relative;
+    top: 6em;
+    left: 4em;   
+}
+
+.part1 > h1{
+    color: white;
+    line-height: 50px;
+}
+
+.part1 > h3{
+    letter-spacing: 1px;
+    color: white;
+}
+
+ span{
+    color:  #FFC107;
+}
+.icn{
+    color: rgb(95, 92, 92);
+    position: relative;
+    top: 3px;
+    letter-spacing: 0px;
+}
+
+.part1 > button{
+    padding: 15px;
+    position: relative;
+    top: 2em;
+    background-color: #FFC107;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.part1 > button:hover{
+    transform: translateY(-3px);
+}
+
+.numbers{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.numbers > h1{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(233, 232, 232);
+}
+/* .count{
+    position: relative;
+    right: 0.4em;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.counterIcon{
+    position: relative;
+    right: 0.6em;
+    top: 0.1em;
+    color:  #FFC107;
+
+
+} */
+
+/* services */
+
+.services-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+  
+}
+
+.Service-heading{
+    color: white;
+}
+
+
+.services{
+    border: none;
+    border-radius: 4;
+    width: 45%;
+    height: 34vh;
+    background:  #24242e;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.services > p{
+
+    font-size: 15px;
+    white-space: pre-line;
+    width: 100%;
+    font-weight: 200;
+    margin: 20px;
+    color:  rgb(167, 164, 164);
+}
+
+.services > h1{
+    font-size: 17px;
+    color:white ;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.services > button{
+    background: none;
+    border: none;
+    margin: 20px;
+    color: #FFC107;
+    position: relative;
+    bottom: 2em;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+
+.services > button:hover{
+    transform: translateX(9px);
+    transition: 0.5s ease-in-out;
+}
+.btnIcn{
+    position: relative;
+    top: 4px;
+    font-size: 18px;
+    background:none;
+    color:#FFC107;
+}
+
+.price-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.price-card{
+
+    border: none;
+    border-radius: 4;
+    width: 45%;
+    height: 36vh;
+    display: grid;
+    place-items: center;
+    background:  #24242e;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);   
+}
+
+.price-card > h3{
+    
+}
+
+.price-card> h1{
+    font-size: 27px;
+    color: #FFC107;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+
+.price-card > button{
+    background: none;
+    border: none;
+    margin: 20px;
+    color: #FFC107;
+    position: relative;
+    bottom: 1em;
+    font-weight: 600;
+    cursor: pointer;
+
+
+}
+
+.price-card > button:hover{
+    transform: translateX(9px);
+    transition: 0.5s ease-in-out;
+}
