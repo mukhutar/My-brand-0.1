@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/solid.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 </head>
 <body>
     <div class="App">
@@ -144,7 +147,7 @@
 
 
         
-    <div class="Middle-main">
+     <div class="Middle-main">
         <div class="main-part1">
       
            <div class="part1">
@@ -158,11 +161,10 @@
            </div>
         </div> <br/>
 
-        <div class="numbers">
-            <h1><CountUp end={4}  delay={1} class="count"/><BiPlus class="counterIcon"/>Years Experience</h1>
-            <h1><CountUp end={16}  delay={1} class="count"/>Completed Projects</h1>
-            <h1><CountUp end={6}  delay={1} class="count"/>Happy Customers</h1>
-            <h1><CountUp end={18}  delay={1} class="count"/> <BiPlus class="counterIcon"/>Certificate Earned</h1>
+        <div class="numbers"> <h1> <span class="spn">3</span> Years Experience</h1>
+            <h1>  <span class="spn">9</span> Completed Projects</h1>
+            <h1> <span class="spn"> 10</span> Happy Customers</h1>
+            <h1> <span class="spn">8</span> Certificate Earned</h1>
         </div> <br/>
 
         <div>
@@ -181,6 +183,7 @@
                 </p>
                 <button>
                     ORDER NOW
+                    <i class="fa-solid fa-angle-right" style="color: #FFC107;"></i>
                 </button>  
             </div>
 
@@ -193,6 +196,7 @@
                 </p>
                 <button>
                     ORDER NOW
+                    <i class="fa-solid fa-angle-right" style="color: #FFC107;"></i>
                 </button>  
             </div>
 
@@ -205,6 +209,7 @@
                 </p>
                 <button>
                     ORDER NOW
+                    <i class="fa-solid fa-angle-right" style="color: #FFC107;"></i>
                 </button>  
             </div>
 
@@ -218,7 +223,7 @@
         <div class="price-container">
             <div class="price-card">
                 <h3>Starter Price</h3> <br />
-                <h1 className="cost">FREE</h1>
+                <h1 className="cost">FREE <span>*</span></h1>
                 <ul>
                     <li>UI design</li>
                     <li>Web Development</li>
@@ -229,14 +234,14 @@
                 </ul>
                 <button>
                     ORDER NOW
-                </button>
+                    <i class="fa-solid fa-angle-right" style="color: #FFC107;"></i>                </button>
     
     
             </div>
 
-            <div class="price-card">
-                <h3>Starter Price</h3> <br />
-                <h1 className="cost">FREE</h1>
+            <div class="price-card-center">
+                <h3>Hourly payment</h3> <br />
+                <h1 className="cost"><span class="cspan">$</span> 29 <span class="cspan">h</span></h1>
                 <ul>
                     <li>UI design</li>
                     <li>Web Development</li>
@@ -247,14 +252,14 @@
                 </ul>
                 <button>
                     ORDER NOW
-                </button>
+                    <i class="fa-solid fa-angle-right" style="color: #FFC107;"></i>                </button>
     
     
             </div>
 
-            <div class="price-card"> <br/>
-                <h3>Starter Price</h3> <br />
-                <h1 className="cost">FREE</h1>
+            <div class="price-card"> 
+                <h3>Full time</h3> <br />
+                <h1 className="cost"> <span class="cspan">$</span> 2947 <span class="cspan">h</span></h1>
                 <ul>
                     <li>UI design</li>
                     <li>Web Development</li>
@@ -265,23 +270,170 @@
                 </ul>
                 <button>
                     ORDER NOW
-                </button>
+                    <i class="fa-solid fa-angle-right" style="color: #FFC107;"></i>                </button>
     
     
             </div>
         
         
+
+        </div> <br/>
+
+        <div >
+            <h1 class="Service-heading">Recommendations</h1>
+    
+            </div> <br/>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                    <section class="top-section">
+                        <h1>Morgan <br> <span class="cspann">Template Author</span></h1>
+                        <img src="./Assets/images/danizzo.png" alt="" srcset="">
+                    </section>
+                    <p>Working with Mukhutar has been a pleasure Better yet - i <br>
+                    alerted them of a minor issue before  going to sleep the <br>
+                    issue was fixed the next morning i couldn't ask for better <br>
+                    support thank you mukhutar! this is easily a 5 star  freelancer</p>
+
+                    <section class="bottom-section">
+                        <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                        <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                        <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                        <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                        <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    </section>
+              </div>
+
+              <div class="swiper-slide">
+                <section class="top-section">
+                    <h1>Mary<br> <span class="cspann">Template Author</span></h1>
+                    <img src="./Assets/images/me.jpg" alt="" srcset="">
+                </section>
+                <p>Working with Mukhutar has been a pleasure Better yet - i <br>
+                alerted them of a minor issue before  going to sleep the <br>
+                issue was fixed the next morning i couldn't ask for better <br>
+                support thank you mukhutar! this is easily a 5 star  freelancer</p>
+
+                <section class="bottom-section">
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    <i class="fa-sharp fa-solid fa-star" style="color: rgb(167, 164, 164);"></i>
+                </section>
+          </div>
+
+             <div class="swiper-slide">
+                    <section class="top-section">
+                        <h1>Peter Robinhood <br> <span class="cspann">Template Author</span></h1>
+                        <img src="./Assets/images/danizzo.png" alt="" srcset="">
+                    </section>
+                    <p>Working with Mukhutar has been a pleasure Better yet - i <br>
+                    alerted them of a minor issue before  going to sleep the <br>
+                    issue was fixed the next morning i couldn't ask for better <br>
+                    support thank you mukhutar! this is easily a 5 star  freelancer</p>
+
+                    <section class="bottom-section">
+                        <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                        <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                        <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                        <i class="fa-sharp fa-solid fa-star" style="color:rgb(167, 164, 164);"></i>
+                        <i class="fa-sharp fa-solid fa-star" style="color: rgb(167, 164, 164);"></i>
+                    </section>
+              </div>
+                
+              <div class="swiper-slide">
+                <section class="top-section">
+                    <h1>VUilton <br> <span class="cspann">Template Author</span></h1>
+                    <img src="./Assets/images/me.jpg" alt="" srcset="">
+                </section>
+                <p>Working with Mukhutar has been a pleasure Better yet - i <br>
+                alerted them of a minor issue before  going to sleep the <br>
+                issue was fixed the next morning i couldn't ask for better <br>
+                support thank you mukhutar! this is easily a 5 star  freelancer</p>
+
+                <section class="bottom-section">
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                </section>
+              </div>
+
+                    
+              <div class="swiper-slide">
+                <section class="top-section">
+                    <h1>Samson Helly<br> <span class="cspann">Template Author</span></h1>
+                    <img src="./Assets/images/danizzo.png" alt="" srcset="">
+                </section>
+                <p>Working with Mukhutar has been a pleasure Better yet - i <br>
+                alerted them of a minor issue before  going to sleep the <br>
+                issue was fixed the next morning i couldn't ask for better <br>
+                support thank you mukhutar! this is easily a 5 star  freelancer</p>
+
+                <section class="bottom-section">
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    <i class="fa-sharp fa-solid fa-star" style="color: #FFC107;"></i>
+                    <i class="fa-sharp fa-solid fa-star" style="color: rgb(167, 164, 164);"></i>
+                </section>
+              </div>
+              
+
+              
+              
+            </div>  <br/> <br/>
+            
+            
+              
+          </div> <br/>
+          <div class="swipe">
+            <i class="fa-solid fa-arrow-right fa-shake"></i>                  </div>
+          
+
+          <div class="footer">
+            <h1>@ 2023 Mukhutar Ngabo</h1>
+            <h2>Template author:  N magazines</h2>
+          </div>
+
+
+     </div>
+
+        <div class="right-aside">
+            <section class="menu">
+                <div class="triple">
+                    <span class="box"></span>
+                    <span class="box"></span>
+                    <span class="box"></span>
+                </div>
+                
+                <ul>
+                    <li class="menu-list">
+                        <a href="#">Home</a>
+                    </li>
+                </ul>
+            </section>
+            <div class=" content">
+                <ul>
+                    <li>
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+
+          
 
         </div>
-
-        
-
-        
-        
-
-
-
-    </div>
 
     </div>
 
@@ -290,5 +442,14 @@
 
 
     <script src="./js/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 2,
+      spaceBetween: 10,
+
+      }
+    );
+  </script>
 </body>
 </html>
